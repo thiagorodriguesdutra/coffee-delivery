@@ -13,7 +13,7 @@
         background: #FAFAFA;
     }
 
-    h1 {
+    h1.cursive, strong.cursive {
         font-family: 'Baloo 2', cursive;
     }
 
