@@ -27,7 +27,26 @@ export default {
       sans: ['Roboto', 'sans-serif'],
       cursive: ['Baloo 2', 'cursive'],
     },
-    extend: {},
+    extend: {
+      fontSize: {
+        '10': '0.625rem',
+        '12': '0.75rem',
+        '14': '0.875rem',
+        '16': '1rem',
+        '18': '1.125rem',
+        '20': '1.25rem',
+        '24': '1.5rem',
+        '32': '2rem',
+        '48': '3rem',
+      },
+      lineHeight: {
+        '130': 1.3,
+        '160': 1.6,
+      },
+      gridTemplateColumns: {
+        '4col': 'repeat(auto-fit, minmax(256px, 1fr))'
+      }
+    },
   },
   plugins: [],
 }

@@ -3,7 +3,7 @@ import { MapPin, ShoppingCart } from 'phosphor-react'
 
 export function Header() {
     return (
-      <header className='py-8 flex items-center justify-between'>
+      <header className='w-full py-8 flex justify-between'>
         <img src={logo} alt="" />
         <div className='flex items-center justify-center gap-3'>
             <div className='p-2 bg-purple-light text-purple-dark rounded-md flex items-center justify-center'>

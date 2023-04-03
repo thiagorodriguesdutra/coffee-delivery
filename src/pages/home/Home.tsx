@@ -8,23 +8,23 @@ export function Home() {
         <>
         <Header />
         <Banner />
-        <div className="mt-[8.75rem] w-full flex flex-col items-center justify-center text-start">
-            <strong className="">Nossos cafés</strong>
-            <div className="grid grid-cols-4 gap-4">
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard /> 
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
+        <div className="mt-[5rem]">
+            <strong className="cursive text-base-subtitle text-32 leading-130 font-extrabold">Nossos cafés</strong>
+            <div className=" mt-8 grid gap-4 grid-cols-4">
+            <ProductCard /> 
+            <ProductCard /> 
+            <ProductCard /> 
+            <ProductCard /> 
+            <ProductCard /> 
+            <ProductCard /> 
+            <ProductCard /> 
+            <ProductCard /> 
+            <ProductCard /> 
+            <ProductCard /> 
+            <ProductCard /> 
+            <ProductCard /> 
+            <ProductCard /> 
+            <ProductCard /> 
             </div>
         </div>
         </>
