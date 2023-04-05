@@ -4,8 +4,8 @@ import { Home } from "./pages/home/Home";
 
 export function App() {
     return (
-        <div className="px-[160px]">
-            <Checkout />
+        <div className="">
+            <Home />
         </div>
     )
 }
