@@ -45,7 +45,12 @@ export default {
       },
       gridTemplateColumns: {
         '4col': 'repeat(auto-fit, minmax(256px, 1fr))'
-      }
+      },
+      screens: {
+        'xxl': { 'min': '930px', 'max': '1160px' },
+        'grs': { 'min': '0px', 'max': '1160px' },
+        'xl': { 'min': '0px', 'max': '930px' },
+      },
     },
   },
   plugins: [],

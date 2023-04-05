@@ -33,7 +33,7 @@ export function ProductCard() {
               <Plus />
             </button>
           </div>
-          <button className="w-[2.375rem] h-[2.375rem] bg-purple-dark rounded-md text-white flex items-center justify-center hover:bg-purple-light  ">
+          <button className="w-[2.375rem] h-[2.375rem] bg-purple-dark rounded-md text-white flex items-center justify-center hover:bg-purple  ">
             <ShoppingCart size={22} />
           </button>
         </div>

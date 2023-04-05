@@ -10,7 +10,7 @@ export function Home() {
         <Banner />
         <div className="mt-[5rem] flex items-center flex-col">
         <strong className="cursive text-base-subtitle text-32 leading-130 font-extrabold">Nossos cafés</strong>
-            <div className="mt-8 grid gap-4 grid-cols-4 place-items-center">
+            <div className="mt-8 grid gap-4 grid-cols-4 place-items-center xxl:grid-cols-3  xl:grid-cols-2">
             <ProductCard /> 
             <ProductCard /> 
             <ProductCard /> 
