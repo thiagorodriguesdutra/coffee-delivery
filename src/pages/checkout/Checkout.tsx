@@ -4,15 +4,12 @@ import {
   CurrencyDollar,
   MapPinLine,
   Money,
-} from "phosphor-react";
-import { ProductCard } from "../../components/ProductCard";
-import { Header } from "../../components/Header";
+} from 'phosphor-react'
+import { ProductCard } from '../../components/ProductCard'
 
 export function Checkout() {
   return (
     <>
-      <Header />
-
       <div className="flex gap-3 justify-center flex-wrap">
         <div>
           <strong className="cursive text-18 leading-130 font-bold text-base-subtitle">
@@ -122,10 +119,26 @@ export function Checkout() {
           <div className=" mt-4 p-10 bg-base-card rounded-tl-[0.375rem] rounded-br-[0.375rem] rounded-tr-[2.25rem] rounded-bl-[2.25rem]">
             <div className="flex flex-col">
               <li className="pb-6 border-b border-base-button">
-                <ProductCard />
+                <ProductCard
+                  id={1}
+                  apparence="slim"
+                  src=""
+                  category={[]}
+                  title=""
+                  description=""
+                  price={100}
+                />
               </li>
               <li className="pb-6 border-b border-base-button">
-                <ProductCard />
+                <ProductCard
+                  id={1}
+                  apparence="slim"
+                  src=""
+                  category={[]}
+                  title=""
+                  description=""
+                  price={100}
+                />
               </li>
             </div>
 
@@ -158,10 +171,12 @@ export function Checkout() {
               </div>
             </div>
 
-            <button className="mt-6 py-3 px-2 w-full bg-yellow text-white font-bold leading-160 text-14 rounded-md hover:bg-yellow-dark">CONFIRMAR PEDIDO</button>
+            <button className="mt-6 py-3 px-2 w-full bg-yellow text-white font-bold leading-160 text-14 rounded-md hover:bg-yellow-dark">
+              CONFIRMAR PEDIDO
+            </button>
           </div>
         </div>
       </div>
     </>
-  );
+  )
 }
